@@ -8,6 +8,8 @@ import Ex2 from './components/Exam2';
 import PropsEx from './components/R01_props';
 import State1 from './components/R02_state1';
 import State2 from './components/R03_state2';
+import State3 from './components/R04_state3';
+import TodoList1 from './components/R05_todolist1';
 
 
 function App() {
@@ -30,11 +32,17 @@ function App() {
       <PropsEx name={'이길동'}/> */}
 
       {/* R02_state1 */}
-      <State1 />
+      {/* <State1 /> */}
 
-      {/* R02_state2 */}
-      <State2 init={100} />
+      {/* R03_state2 */}
+      {/* <State2 init={100} /> */}
 
+      {/* R04_state3 */}
+      {/* <hr/> */}
+      <State3 />
+
+      {/* R05_todolist1 */}
+      <TodoList1 />
     </>
   );
 }
